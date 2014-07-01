@@ -11,17 +11,9 @@ public class Lotto implements Serializable {
 	private ArrayList<Integer> result = new ArrayList<Integer>();
   
 	public ArrayList<Integer> getResult() {
-
-	// I love the comments
-	// Lionel il est avec moi
-
 		return this.result;
 	}
 
-	public void test(){
-		System.out.println("test SVN");
-		
-	}
 	public void draw() {
 		this.draw(Lotto.MAX, Lotto.SIZE);
 	}
