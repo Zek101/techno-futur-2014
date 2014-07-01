@@ -16,6 +16,7 @@ public class Ex1 {
 
 			if (i < nbr + 1)
 				System.out.print(",");
+			System.out.println("ok");
 			System.out.print("Bonjour Pierre");
 
 		}
