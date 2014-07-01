@@ -15,6 +15,7 @@ public class Lotto implements Serializable {
 	}
 
 	public void draw() {
+		// Comment
 		this.draw(Lotto.MAX, Lotto.SIZE);
 	}
 	
