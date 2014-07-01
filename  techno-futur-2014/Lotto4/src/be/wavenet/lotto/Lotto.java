@@ -13,11 +13,14 @@ public class Lotto implements Serializable {
 	public ArrayList<Integer> getResult() {
 		return this.result;
 	}
-
+	public void test(){
+		System.out.println("test SVN");
+		
+	}
 	public void draw() {
 		this.draw(Lotto.MAX, Lotto.SIZE);
 	}
-
+	
 	public void draw(int max, int size) {
 		boolean numbers[] = new boolean[max];
 		Random random = new Random();
