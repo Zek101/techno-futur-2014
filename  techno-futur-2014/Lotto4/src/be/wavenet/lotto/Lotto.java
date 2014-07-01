@@ -9,10 +9,12 @@ public class Lotto implements Serializable {
 	private static final int MAX = 42;
 	private static final int SIZE = 6;
 	private ArrayList<Integer> result = new ArrayList<Integer>();
-
+  
 	public ArrayList<Integer> getResult() {
-		// Just return result to calling method
-		// it 's a label
+
+	// I love the comments
+	// Lionel il est avec moi
+
 		return this.result;
 	}
 
@@ -21,6 +23,7 @@ public class Lotto implements Serializable {
 		
 	}
 	public void draw() {
+		// This is a new comment
 		this.draw(Lotto.MAX, Lotto.SIZE);
 	}
 	
