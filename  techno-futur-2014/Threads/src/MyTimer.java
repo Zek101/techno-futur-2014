@@ -28,9 +28,16 @@ public class MyTimer implements Runnable {
 	}
 	
 	
-	public void sayHello(String message)
+	public void sayHello(String messageIn)
 	{
-		System.out.println("Hello, I have a lot to say about GIT: "+message);
+		String[] mComponents =new String[2];
+		mComponents[0]="Hello, I have a lot to say about GIT compared to SVN: ";
+		mComponents[1]=messageIn;
+		message="";
+		for (String string : mComponents) {
+			message+=string;
+		}
+		System.out.println(message);
 	}
 	
 	public static void main(String[] args) {
