@@ -16,6 +16,7 @@ public class Lotto implements Serializable {
 		// Just return result to calling method
 		return this.result;
 	}
+	// c'est mon projet
 	public void test(){
 		System.out.println("test SVN");
 		
