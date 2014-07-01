@@ -13,6 +13,9 @@ public class Lotto implements Serializable {
 		return this.result;
 	}
 
+	// I love the comments
+	// Lionel il est avec moi
+
 	public void test(){
 		System.out.println("test SVN");
 		
