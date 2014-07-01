@@ -48,7 +48,7 @@
 			</c:forTokens>
 		</c:when>
 		<c:otherwise>
-			Vous n'avez pas visité d'autre pays.<br/>
+			Vous n'avez pas visité d'autre pays bonne journée.<br/>
 		</c:otherwise>
 	</c:choose>
 	</p>
