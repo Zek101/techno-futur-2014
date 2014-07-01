@@ -30,7 +30,7 @@ public class MyTimer implements Runnable {
 	
 	public void sayHello(String message)
 	{
-		System.out.println("Hello, I have this to say: "+message);
+		System.out.println("Hello, I have a lot to say about GIT: "+message);
 	}
 	
 	public static void main(String[] args) {
