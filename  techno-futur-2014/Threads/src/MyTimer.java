@@ -17,7 +17,7 @@ public class MyTimer implements Runnable {
 	public void run() {
 		try {
 			while (true) {
-				System.out.println(message);
+				sayHello(message);
 				System.out.println(message + DBConnection.getInstance().getUser());
 				Thread.sleep(waitTime);
 			}
@@ -27,6 +27,11 @@ public class MyTimer implements Runnable {
 		}
 	}
 	
+	
+	public void sayHello(String message)
+	{
+		System.out.println("Hello, I have this to say: "+message);
+	}
 	
 	public static void main(String[] args) {
 		new MyTimer(1000, "1");
