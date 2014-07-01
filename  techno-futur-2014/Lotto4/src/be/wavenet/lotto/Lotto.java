@@ -11,6 +11,7 @@ public class Lotto implements Serializable {
 	private ArrayList<Integer> result = new ArrayList<Integer>();
 
 	public ArrayList<Integer> getResult() {
+		// Just return result to calling method
 		return this.result;
 	}
 	public void test(){
